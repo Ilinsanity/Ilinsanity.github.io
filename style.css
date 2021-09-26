@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.one {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.cont {
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    border: 3px solid blue;
+}
+
+.cont span {
+    text-transform: uppercase;
+}
+
+.d {
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(50, end), blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: white;
+    }
+}

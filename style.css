@@ -10,17 +10,31 @@
     height: 100vh;
     background-color: black;
 }
+.two{
+    width: 100vw;
+    height: 100vh;
+    background-color: salmon;
+}
 
 .cont {
     text-align: center;
     align-items: center;
-    position: fixed;
+    position: relative;
     display: flex;
     top: 50%;
     left: 50%;
-    width: 100%;
+    width: fit-content;
+    transform: translate(-50%,-30%);
+}
+.cont1 {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    top:25%;
+    left: 50%;
+    width: fit-content;
     transform: translate(-50%, -50%);
-    border: 3px solid blue;
 }
 
 .cont span {
@@ -61,7 +75,7 @@
     from, to {
         border-color: transparent
     }
-    50% {
+    45% {
         border-color: white;
     }
 }

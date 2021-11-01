@@ -1,45 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
 }
-.one {
-    width: 100vw;
-    height: 100vh;
-    background-color: black;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
 }
-.two{
-    width: 100vw;
-    height: 100vh;
-    background-color: salmon;
+li {
+  float: left;
 }
-
-.cont {
-    text-align: center;
-    align-items: center;
-    position: relative;
-    display: flex;
-    top: 50%;
-    left: 50%;
-    width: fit-content;
-    transform: translate(-50%,-30%);
-}
-.cont1 {
-    text-align: center;
-    align-items: center;
-    position: relative;
-    display: flex;
-    top:25%;
-    left: 50%;
-    width: fit-content;
-    transform: translate(-50%, -50%);
+.lit {
+  float: right;
 }
 
-.cont span {
-    text-transform: uppercase;
+.navb {
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+li a {
+  display: block;
+  color: #FFFDD0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.d{
-    color:dodgerblue;
+li a:hover {
+  background-color: yellow;
+  color: black;
 }
+
+body{
+  background-color: #9CC3D5FF;
+}
+
+.an {
+  color: #0063B2FF;
+  font-size: 75px;
+  animation-name: shift;
+  animation-duration: 2s;
+  position: fixed;
+  top: 20%;
+  left: 20%;
+}
+
+.an2 {
+  color: #0063B2FF;
+  font-size: 75px;
+  animation-name: shift2;
+  animation-duration: 2s;
+  position: fixed;
+  top: 30%;
+  left: 45%;
+}
+.an3 {
+  font-size: 75px;
+  animation-name: shift3;
+  animation-duration: 2s;
+  color: #0063B2FF;
+  position: fixed;
+  top: 40%;
+  left: 38%;
+}
+.an4 {
+  font-size: 75px;
+  animation-name: shift4;
+  animation-duration: 2s;
+  color: #0063B2FF;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+}
+
+@keyframes shift {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 20%;
+  }
+}
+@keyframes shift2 {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 45%;
+  }
+}
+@keyframes shift3 {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 38%;
+  }
+}
+@keyframes shift4 {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 45%;
+  }
+}
+

@@ -4,6 +4,7 @@
   margin: 0;
   font-family: "Rubik", sans-serif;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -11,9 +12,11 @@ ul {
   overflow: hidden;
   background-color: transparent;
 }
+
 li {
   float: left;
 }
+
 .lit {
   float: right;
 }
@@ -22,21 +25,39 @@ li {
   font-size: 18px;
   letter-spacing: 4px;
 }
+
 li a {
   display: block;
   color: #FFFDD0;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 300ms linear;
 }
 
 li a:hover {
   background-color: yellow;
   color: black;
+  text-decoration: underline;
 }
 
-body{
+body {
   background-color: #9CC3D5FF;
+}
+
+.an:hover {
+  color: #FFFDD0;
+  letter-spacing: 20px;
+  transform: rotate(20deg);
+}
+
+@keyframes spaceout {
+  0% {
+    letter-spacing: 0px;
+  }
+  100% {
+    letter-spacing: 20px;
+  }
 }
 
 .an {
@@ -48,6 +69,7 @@ body{
   top: 20%;
   right: 55%;
   animation-timing-function: ease-in-out;
+  transition: 600ms linear;
 }
 
 .an2 {
@@ -60,6 +82,7 @@ body{
   top: 30%;
   left: 45%;
 }
+
 .an3 {
   font-size: 75px;
   animation-name: shift3;
@@ -70,6 +93,7 @@ body{
   left: 38%;
   animation-timing-function: ease-in-out;
 }
+
 .an4 {
   font-size: 75px;
   animation-name: shift4;
@@ -84,33 +108,39 @@ body{
 @keyframes shift {
   from {
     right: 0%;
+    opacity: 0;
   }
   to {
     right: 55%;
   }
 }
+
 @keyframes shift2 {
   from {
     left: 0%;
-  }
-  to {
-    left: 45%;
-  }
-}
-@keyframes shift3 {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 38%;
-  }
-}
-@keyframes shift4 {
-  from {
-    left: 0%;
+    opacity: 0;
   }
   to {
     left: 45%;
   }
 }
 
+@keyframes shift3 {
+  from {
+    left: 100%;
+    opacity: 0;
+  }
+  to {
+    left: 38%;
+  }
+}
+
+@keyframes shift4 {
+  from {
+    left: 0%;
+    opacity: 0;
+  }
+  to {
+    left: 45%;
+  }
+}

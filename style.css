@@ -65,7 +65,7 @@ body {
   font-size: 75px;
   animation-name: shift;
   animation-duration: 2s;
-  position: fixed;
+  position: absolute;
   top: 20%;
   right: 55%;
   animation-timing-function: ease-in-out;
@@ -78,7 +78,7 @@ body {
   animation-name: shift2;
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
-  position: fixed;
+  position: absolute;
   top: 30%;
   left: 45%;
 }
@@ -88,7 +88,7 @@ body {
   animation-name: shift3;
   animation-duration: 2s;
   color: #0063B2FF;
-  position: fixed;
+  position: absolute;
   top: 40%;
   left: 38%;
   animation-timing-function: ease-in-out;
@@ -99,7 +99,7 @@ body {
   animation-name: shift4;
   animation-duration: 2s;
   color: #0063B2FF;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 45%;
   animation-timing-function: ease-in-out;

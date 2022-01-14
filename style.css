@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+.navigation {
+    background-color: #9CC3D5FF;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -143,4 +151,4 @@ body {
   to {
     left: 45%;
   }
-}
+} */

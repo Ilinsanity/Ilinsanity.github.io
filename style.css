@@ -2,8 +2,8 @@
 .navigation {
     /* background-color: #9CC3D5FF; */
     background-color: white;
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    width: 100vw; */
 }
 
 .navbar-brand {
@@ -25,6 +25,10 @@
     background-color: #145374 !important;
 }
 
+.nav-item {
+    border-radius: 3px;
+}
+
 h1 {
     color: #145374;
     font-family: 'Poppins', sans-serif;
@@ -39,6 +43,12 @@ h1 {
     h1 {
         font-size: 3rem;
     }
+}
+
+#aboutme {
+    width: 100%;
+    height: 100vh;
+    background-color: violet;
 }
 
 

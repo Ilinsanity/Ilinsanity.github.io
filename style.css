@@ -52,9 +52,9 @@
     padding-left: 4%;
 }
 
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
+@media (max-width: 600px) {
+    .titleheading {
+        font-size: 4rem;
     }
 }
 

@@ -5,6 +5,7 @@
     /* height: 100vh;
     width: 100vw; */
     width: 100%;
+    height: 100vh;
 }
 
 .navbar-brand {
@@ -53,6 +54,7 @@
     background-color: #1F4287 !important;
     border-radius: 9px;
     margin-top: 12%;
+    margin-right: 6px;
 }
 
 .landing {

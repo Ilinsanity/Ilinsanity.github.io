@@ -31,14 +31,28 @@
 }
 
 .titles {
-    padding-top: 10%;
-    padding-bottom: 11%;
+    padding-top: 5%;
+    padding-bottom: 16%;
 }
 
 .titleheading {
     color: #278EA5;
     font-family: 'Poppins', sans-serif;
-    font-size: 7rem;
+    font-size: 6rem;
+}
+
+.name {
+    color: #21E6C1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 18px;
+}
+
+.btn-dark {
+    background-color: #1F4287 !important;
+    border-radius: 9px;
+    margin-top: 12%;
 }
 
 .landing {

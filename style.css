@@ -32,8 +32,8 @@
 }
 
 .titles {
-    padding-top: 5%;
-    padding-bottom: 16%;
+    /* padding-top: 5%;
+    padding-bottom: 16%; */
 }
 
 .titleheading {
@@ -89,162 +89,24 @@
 }
 
 .aboutme-img {
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+    margin-top: 14%;
+}
+
+.landingpage-img {
     max-width: 75%;
     max-height: 75%;
-    float: right;
-    border-radius: 30%;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-/* .aboutimgcol {
-    align-content: flex-end;
-} */
-
-
-/* @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Rubik", sans-serif;
+.middle {
+    text-align: center;
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: transparent;
-}
-
-li {
-  float: left;
-}
-
-.lit {
-  float: right;
-}
-
-.navb {
-  font-size: 18px;
-  letter-spacing: 4px;
-}
-
-li a {
-  display: block;
-  color: #FFFDD0;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 300ms linear;
-}
-
-li a:hover {
-  background-color: yellow;
-  color: black;
-  text-decoration: underline;
-}
-
-body {
-  background-color: #9CC3D5FF;
-}
-
-.an:hover {
-  color: #FFFDD0;
-  letter-spacing: 20px;
-  transform: rotate(20deg);
-}
-
-@keyframes spaceout {
-  0% {
-    letter-spacing: 0px;
-  }
-  100% {
-    letter-spacing: 20px;
-  }
-}
-
-.an {
-  color: #0063B2FF;
-  font-size: 75px;
-  animation-name: shift;
-  animation-duration: 2s;
-  position: absolute;
-  top: 20%;
-  right: 55%;
-  animation-timing-function: ease-in-out;
-  transition: 600ms linear;
-}
-
-.an2 {
-  color: #0063B2FF;
-  font-size: 75px;
-  animation-name: shift2;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  position: absolute;
-  top: 30%;
-  left: 45%;
-}
-
-.an3 {
-  font-size: 75px;
-  animation-name: shift3;
-  animation-duration: 2s;
-  color: #0063B2FF;
-  position: absolute;
-  top: 40%;
-  left: 38%;
-  animation-timing-function: ease-in-out;
-}
-
-.an4 {
-  font-size: 75px;
-  animation-name: shift4;
-  animation-duration: 2s;
-  color: #0063B2FF;
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes shift {
-  from {
-    right: 0%;
-    opacity: 0;
-  }
-  to {
-    right: 55%;
-  }
-}
-
-@keyframes shift2 {
-  from {
-    left: 0%;
-    opacity: 0;
-  }
-  to {
-    left: 45%;
-  }
-}
-
-@keyframes shift3 {
-  from {
-    left: 100%;
-    opacity: 0;
-  }
-  to {
-    left: 38%;
-  }
-}
-
-@keyframes shift4 {
-  from {
-    left: 0%;
-    opacity: 0;
-  }
-  to {
-    left: 45%;
-  }
-} */

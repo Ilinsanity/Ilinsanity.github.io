@@ -1,5 +1,5 @@
 function textreplace(i) {
-    var text = ['Web Developer', 'Programmer', 'Raptors Fan'];
+    var text = ['Web Developer', 'Programmer', 'Raptors Fan', 'University Student'];
 
     if (text.length > i) {
         setTimeout(function() {

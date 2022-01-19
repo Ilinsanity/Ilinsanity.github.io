@@ -34,6 +34,7 @@
 .titles {
     /* padding-top: 5%;
     padding-bottom: 16%; */
+    padding-top: 8%;
 }
 
 .titleheading {
@@ -48,6 +49,12 @@
     font-size: 5rem;
     text-decoration: underline;
     text-decoration-thickness: 18px;
+}
+
+.name1 {
+    color: #21E6C1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
 }
 
 .btn-dark {
@@ -86,6 +93,12 @@
     width: 100%;
     height: 100vh;
     background-color: #278EA5;
+}
+
+#projects {
+    width: 100%;
+    height: 100vh;
+    background-color: #071E3D;
 }
 
 .aboutme-img {

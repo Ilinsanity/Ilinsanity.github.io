@@ -5,7 +5,11 @@ html {
 
 .navigation {
     /* background-color: #9CC3D5FF; */
-    background-color: #071E3D;
+    /* background-color: #071E3D; */
+    background-image: url(images/mount.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     /* height: 100vh;
     width: 100vw; */
     width: 100%;
@@ -14,12 +18,13 @@ html {
 
 .navbar-brand {
     color: #278EA5 !important;
+    color: white !important;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
 }
 
 .nav-link {
-    color: #278EA5 !important;
+    color: white !important;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -28,7 +33,7 @@ html {
 }
 
 .nav-item:hover {
-    background-color: #278EA5 !important;
+    background-color: black !important;
 }
 
 .nav-item {
@@ -42,15 +47,17 @@ html {
 }
 
 .titleheading {
-    color: #278EA5;
+    /* color: #278EA5; */
+    color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 6rem;
+    font-size: 8rem;
 }
 
 .name {
-    color: #21E6C1;
+    /* color: #21E6C1; */
+    color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
+    font-size: 7rem;
     text-decoration: underline;
     text-decoration-thickness: 18px;
 }
@@ -63,9 +70,13 @@ html {
 
 .btn-dark {
     background-color: #1F4287 !important;
-    border-radius: 9px;
-    margin-top: 12%;
+    border-radius: 100%;
+    margin-top: 10%;
     margin-right: 6px;
+}
+
+.buttonnorm {
+    border-radius: 9px;
 }
 
 .landing {
@@ -82,6 +93,7 @@ html {
     font-size: 5rem;
     padding-top: 3%;
     padding-left: 4%;
+    text-decoration: underline;
 }
 
 .aboutme-text {
@@ -93,7 +105,10 @@ html {
 
 @media (max-width: 500px) {
     .titleheading {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+    .name {
+        font-size: 5rem;
     }
 }
 
@@ -101,6 +116,10 @@ html {
     width: 100%;
     height: 100vh;
     background-color: #278EA5;
+    /* background-image: url(images/ant.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
     scroll-snap-align: start;
 }
 

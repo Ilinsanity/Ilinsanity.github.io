@@ -51,6 +51,7 @@ html {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 8rem;
+    display: inline-block;
 }
 
 .name {
@@ -135,12 +136,15 @@ html {
 }
 
 .aboutme-img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30%;
+    border-style: solid;
+    border-color: #071E3D;
+    border-width: 4px;
     margin-top: 14%;
 }
 
@@ -155,4 +159,13 @@ html {
 
 .middle {
     text-align: right;
+}
+
+.project-heading {
+    color: #278EA5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    padding-top: 3%;
+    padding-left: 4%;
+    text-decoration: underline;
 }

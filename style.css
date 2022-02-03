@@ -63,6 +63,36 @@ html {
     text-decoration-thickness: 18px;
 }
 
+.nameanimation {
+    animation-name: spreadapart;
+    animation-duration: 500ms;
+    letter-spacing: 4px;
+}
+
+.nameanimation2 {
+    animation-name: spreadapart2;
+    animation-duration: 500ms;
+    letter-spacing: normal;
+}
+
+@keyframes spreadapart {
+    0% {
+        letter-spacing: normal;
+    }
+    100% {
+        letter-spacing: 4px;
+    }
+}
+
+@keyframes spreadapart2 {
+    0% {
+        letter-spacing: 4px;
+    }
+    100% {
+        letter-spacing: normal;
+    }
+}
+
 .name1 {
     color: #21E6C1;
     font-family: 'Poppins', sans-serif;

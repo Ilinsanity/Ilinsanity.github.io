@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 html {
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
 }
 
 .navigation {
@@ -177,7 +177,7 @@ html {
     border-style: solid;
     border-color: #071E3D;
     border-width: 4px;
-    margin-top: 14%;
+    margin-top: 10%;
 }
 
 .landingpage-img {

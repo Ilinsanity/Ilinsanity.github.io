@@ -1,211 +1,309 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 html {
-    /* scroll-snap-type: y mandatory; */
+  /* scroll-snap-type: y mandatory; */
 }
 
 .navigation {
-    /* background-color: #9CC3D5FF; */
-    /* background-color: #071E3D; */
-    background-image: url(images/mount.JPG);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* height: 100vh;
+  /* background-color: #9CC3D5FF; */
+  /* background-color: #071E3D; */
+  background-image: url(images/mount.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh;
     width: 100vw; */
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .navbar-brand {
-    color: #278EA5 !important;
-    color: white !important;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5rem;
+  color: #278ea5 !important;
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
 }
 
 .nav-link {
-    color: white !important;
-    font-family: 'Poppins', sans-serif;
+  color: white !important;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-link:hover {
-    color: white !important;
+  color: white !important;
 }
 
 .nav-item:hover {
-    background-color: black !important;
+  background-color: black !important;
 }
 
 .nav-item {
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 .titles {
-    /* padding-top: 5%;
+  /* padding-top: 5%;
     padding-bottom: 16%; */
-    padding-top: 8%;
+  padding-top: 8%;
 }
 
 .titleheading {
-    /* color: #278EA5; */
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 8rem;
-    display: inline-block;
-    text-shadow: 10px 10px black;
+  /* color: #278EA5; */
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 8rem;
+  display: inline-block;
+  text-shadow: 10px 10px black;
 }
 
 .name {
-    /* color: #21E6C1; */
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 7rem;
-    /* text-decoration: underline;
+  /* color: #21E6C1; */
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 7rem;
+  /* text-decoration: underline;
     text-decoration-thickness: 12px; */
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .nameanimation {
-    animation-name: spreadapart;
-    animation-duration: 500ms;
-    letter-spacing: 4px;
+  animation-name: spreadapart;
+  animation-duration: 500ms;
+  letter-spacing: 4px;
 }
 
 .nameanimation2 {
-    animation-name: spreadapart2;
-    animation-duration: 500ms;
-    letter-spacing: normal;
+  animation-name: spreadapart2;
+  animation-duration: 500ms;
+  letter-spacing: normal;
 }
 
 @keyframes spreadapart {
-    0% {
-        letter-spacing: normal;
-    }
-    100% {
-        letter-spacing: 4px;
-    }
+  0% {
+    letter-spacing: normal;
+  }
+  100% {
+    letter-spacing: 4px;
+  }
 }
 
 @keyframes spreadapart2 {
-    0% {
-        letter-spacing: 4px;
-    }
-    100% {
-        letter-spacing: normal;
-    }
+  0% {
+    letter-spacing: 4px;
+  }
+  100% {
+    letter-spacing: normal;
+  }
 }
 
 .name1 {
-    color: #21E6C1;
-    font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
+  color: #21e6c1;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
 }
 
 .btn-dark {
-    background-color: #1F4287 !important;
-    border-radius: 100%;
-    margin-top: 10%;
-    margin-right: 6px;
+  background-color: #1f4287 !important;
+  border-radius: 100%;
+  margin-top: 10%;
+  margin-right: 6px;
 }
 
 .buttonnorm {
-    border-radius: 9px;
+  border-radius: 9px;
 }
 
 .landing {
-    text-align: center;
+  text-align: center;
 }
 
 .landingpage {
-    text-align: center;
+  text-align: center;
 }
 
 .aboutme-heading {
-    color: #071E3D;
-    font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
-    padding-top: 3%;
-    padding-left: 4%;
-    text-decoration: underline;
+  color: #071e3d;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  padding-top: 3%;
+  padding-left: 4%;
+  text-decoration: underline;
 }
 
 .aboutme-text {
-    font-family: 'Poppins', sans-serif;
-    color: #071E3D;
-    font-size: 2rem;
-    padding-left: 4%;
+  font-family: "Poppins", sans-serif;
+  color: #071e3d;
+  font-size: 2rem;
+  padding-left: 4%;
 }
 
 @media (max-width: 500px) {
-    .titleheading {
-        font-size: 3rem;
-    }
-    .name {
-        font-size: 5rem;
-    }
+  .titleheading {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 5rem;
+  }
 }
 
 #aboutme {
-    width: 100%;
-    height: 100vh;
-    background-color: #278EA5;
-    /* background-image: url(images/ant.jpg);
+  width: 100%;
+  height: 100vh;
+  background-color: #278ea5;
+  /* background-image: url(images/ant.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; */
-    scroll-snap-align: start;
+  scroll-snap-align: start;
 }
 
 #projects {
-    width: 100%;
-    height: 100vh;
-    background-color: #071E3D;
-    scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+  background-color: #071e3d;
+  scroll-snap-align: start;
+  font-family: "Poppins", sans-serif;
 }
 
 #title {
-    scroll-snap-align: center;
+  scroll-snap-align: center;
 }
 
 .aboutme-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30%;
-    border-style: solid;
-    border-color: #071E3D;
-    border-width: 4px;
-    margin-top: 10%;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30%;
+  border-style: solid;
+  border-color: #071e3d;
+  border-width: 4px;
+  margin-top: 10%;
 }
 
 .landingpage-img {
-    max-width: 75%;
-    max-height: 75%;
-    border-radius: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 75%;
+  max-height: 75%;
+  border-radius: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .middle {
-    text-align: right;
+  text-align: right;
 }
 
 .project-heading {
-    color: #278EA5;
-    font-family: 'Poppins', sans-serif;
-    font-size: 5rem;
-    padding-top: 3%;
-    padding-left: 4%;
-    text-decoration: underline;
+  color: #278ea5;
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  padding-top: 3%;
+  padding-left: 4%;
+  text-decoration: underline;
 }
 
-.backtop{
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    left: 93%;
-    top: 70%;
+.backtop {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  left: 93%;
+  top: 70%;
 }
+
+/* Projects expands */
+
+.project-entry {
+  position: static;
+  /* top: 15%;
+    padding-left: 1%; */
+  /* padding-left: 4%; */
+  margin-left: 4%;
+  width: max-content;
+  height: 200px;
+  background-color: #B1DDF1;
+  display: flex;
+  justify-content: space-between;
+  /*   overflow: hidden; */
+  border-radius: 8px 8px 8px 8px;
+}
+
+.text-cont {
+  height: 100%;
+  display: block;
+  /* align-items: center;
+    justify-content: center; */
+}
+
+.right-cont {
+  order: 2;
+  display: flex;
+  justify-content: right;
+  text-align: left;
+  background-color: #B1DDF1;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  transition: width 0.5s;
+}
+
+.text-cont:hover + .right-cont {
+  width: 850px;
+}
+
+.project-title-1 {
+  font-size: 2.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-icons {
+  font-size: 50px;
+  padding-left: 12px;
+}
+
+.project-icons-cont {
+  padding-top: 5px;
+  justify-content: space-between;
+}
+
+.right-cont-img {
+  max-width: 300px;
+  padding-left: 2%;
+}
+
+.right-cont-text {
+  font-size: 1.5em;
+}
+
+.button-project {
+  background-color: black !important;
+  color: white;
+  border-radius: 8px;
+}
+
+.project-buttons-cont {
+  text-align: center;
+  padding-top: 8%;
+}
+
+.button-icons {
+  font-size: 2em;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.button-icons:hover{
+    color: white;
+}
+
+.screenicon {
+  margin: 4px;
+}
+
+.button-project-screen {
+    background-color: black !important;
+    color: white;
+    border-radius: 8px;
+  }

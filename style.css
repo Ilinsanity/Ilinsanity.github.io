@@ -221,11 +221,25 @@ html {
   margin-left: 4%;
   width: max-content;
   height: 200px;
-  background-color: #B1DDF1;
+  background-color: #b1ddf1;
   display: flex;
   justify-content: space-between;
   /*   overflow: hidden; */
   border-radius: 8px 8px 8px 8px;
+}
+
+.project-entry-1 {
+  position: static;
+  margin-top: 1%;
+  margin-left: 4%;
+  width: max-content;
+  height: 200px;
+  background-color: #b1ddf1;
+  display: flex;
+  justify-content: space-between;
+  /*   overflow: hidden; */
+  border-radius: 8px;
+  /* border: 2px black solid; */
 }
 
 .text-cont {
@@ -233,23 +247,24 @@ html {
   display: block;
   /* align-items: center;
     justify-content: center; */
+  border-right: black 3px solid;
 }
 
-.right-cont {
+.right-cont-1 {
   order: 2;
   display: flex;
-  justify-content: right;
+  justify-content: left;
   text-align: left;
-  background-color: #B1DDF1;
+  background-color: #b1ddf1;
   white-space: nowrap;
   overflow: hidden;
-  width: 0;
-  transition: width 0.5s;
-}
 
-.text-cont:hover + .right-cont {
   width: 850px;
 }
+
+/* .text-cont:hover + .right-cont {
+  width: 850px;
+} */
 
 .project-title-1 {
   font-size: 2.5rem;
@@ -268,8 +283,8 @@ html {
 }
 
 .right-cont-img {
-  max-width: 300px;
-  padding-left: 2%;
+  max-width: 400px;
+  float: right;
 }
 
 .right-cont-text {
@@ -294,8 +309,8 @@ html {
   text-decoration: none;
 }
 
-.button-icons:hover{
-    color: white;
+.button-icons:hover {
+  color: white;
 }
 
 .screenicon {
@@ -303,7 +318,7 @@ html {
 }
 
 .button-project-screen {
-    background-color: black !important;
-    color: white;
-    border-radius: 8px;
-  }
+  background-color: black !important;
+  color: white;
+  border-radius: 8px;
+}

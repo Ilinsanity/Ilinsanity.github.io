@@ -147,7 +147,7 @@ html {
 
 #aboutme {
   width: 100%;
-  height: 100vh;
+  height: fit-content;
   background-color: #278ea5;
   /* background-image: url(images/ant.jpg);
     background-position: center;
@@ -169,7 +169,7 @@ html {
 }
 
 .aboutme-img {
-  max-width: 100%;
+  max-width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
